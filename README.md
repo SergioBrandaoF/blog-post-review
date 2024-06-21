@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a personal project created with the goal of testing certain of my skills.
+A small design structure for how a blog post preview might look like.
 
 ### Links
 
