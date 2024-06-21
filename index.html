@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-    <title>QR Code Page</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Blog Preview Card | Frontend Mentor Challange</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     
-    <div id="qr-container">
+    <main role="main">
 
-        <div id="inner-qr-container">
-            <img src="images/image-qr-code.png" alt="">
+        <div id="blog-container">
+
+            <div id="image">
+                <img src="CSS/assets/images/illustration-article.svg" alt="Abstract HTML & CSS art">
+            </div>
+
+            <div id="content">
+                <div id="tags">
+                    <div id="tag-one-container">
+                        <p id="tag-one">Learning</p>
+                    </div>
+                    <div id="tag-two-container">
+                        <p id="tag-two">Published 21 Dec 2023</p>
+                    </div>
+                </div>
+
+                <div id="text">
+                    <h1>HTML & CSS foundations</h1>
+                    <p>These languages are the backbone of every website, defining structure, content, and
+                        presentation.
+                    </p>
+                </div>
+
+                <div id="user">
+                    <img src="CSS/assets/images/image-avatar.webp" alt="User's picture">
+                    <p id="user-name">Greg Hopper</p>
+                </div>
+            </div>
         </div>
 
-        <div id="inner-text">
+    </main>
 
-            <h2>Improve your front-end skills by building projects</h2>
-            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-
-        </div>
-
-    </div>
-    
-    <div></div>
-
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/SergioBrandaoF">Sergio EB</a>.
-    </div>
 </body>
 </html>
