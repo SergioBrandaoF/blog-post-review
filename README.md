@@ -14,3 +14,4 @@ Live Site:
 
 - Semantic HTML5 marksup
 - FLexbox
+- Media query
