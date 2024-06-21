@@ -110,3 +110,25 @@ text > p {
     #user-name {
         cursor: pointer;
     }
+
+    @media screen and (max-width: 480px) {
+        #blog-container {
+            width: 90%;
+            height: 100%;
+        }
+
+        img {
+            height: 150px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        #blog-container {
+            width: 90%;
+            height: 550px;
+        }
+
+        img {
+            height: 250px;
+        }
+    }
