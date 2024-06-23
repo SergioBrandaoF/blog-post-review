@@ -6,7 +6,7 @@ A small design structure for how a blog post preview might look like.
 
 ### Links
 
-Live Site: 
+Live Site: https://sergiobrandaof.github.io/blog-post-review/
 
 ## My Process
 
