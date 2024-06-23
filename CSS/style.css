@@ -4,6 +4,14 @@
     font-family: 'Figtree';
 }
 
+    *, *::before, *::after {
+        box-sizing: inherit;
+    }
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     background-color: hsl(47, 88%, 63%);
     display: flex;
@@ -27,6 +35,7 @@ body {
     width: 470px;
     height: 610px;
     transition: all 0.3s;
+    overflow: hidden;
 }
 
     #blog-container:hover {
@@ -37,12 +46,15 @@ body {
     padding-top: 35px;
     padding-bottom: 0; 
     margin: 0;
+    overflow: hidden;
+    border-radius: 15px;
 }
 
 img {
     border-radius: 15px;
     height: 250px;
     width: auto;
+    overflow: hidden;
 }
 
 #content {
@@ -115,10 +127,17 @@ text > p {
         #blog-container {
             width: 90%;
             height: 100%;
+            padding: 10px;
+            margin: 20px;
         }
 
         img {
             height: auto;
+            width: auto;
+        }
+
+        #user > img {
+            display: none;
         }
     }
 
@@ -126,18 +145,11 @@ text > p {
         #blog-container {
             width: 90%;
             height: 550px;
+            margin: 20px;
         }
 
         img {
             height: auto;
+            width: auto;
         }
     }
-
-    @media only screen and (minwidth: 1280px) {
-        #blog-container {
-            width: 100%;
-            height: 100%;
-        }
-        img {
-            height: auto;
-        }
